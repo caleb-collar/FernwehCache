@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 347911acf56ac6840b20b4c944676f46, type: 3}
+  m_Name: State 1
+  m_EditorClassIdentifier: 
+  storyText: "Situation: The device comes to life after you hold the power button
+    for a few seconds. The display is very bright and temporarily blinds you. After
+    a minute, you can see the device indicates there is a set of coordinates already
+    entered as a waypoint.\r\n\nObservations: According to the display on the gps,
+    you are only 1.2 kilometers south of the waypoint. You thought you heard a dry
+    stick snap somewhere ahead of you - local wildlife?\r\n\nOption A: Head into
+    the forest, you can just make out a small path ahead (north), but it is getting
+    very dark.\r\nOption B: It\u2019s too dark. Turn around (south) and run away,
+    hoping you remember why you are here and how to get back to your home, if you
+    have one.\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: b1df26e42a462744ea7de5751aa7b384, type: 2}
+  - {fileID: 11400000, guid: 1e25dc6a2dcefbf4fb71c75033501243, type: 2}

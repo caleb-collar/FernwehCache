@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 347911acf56ac6840b20b4c944676f46, type: 3}
+  m_Name: State 9
+  m_EditorClassIdentifier: 
+  storyText: "Situation: Moving carefully but urgently, you vault the rocks and continue
+    on the path. You are too tired to run, but you\u2019re definitely alert now.
+    The gps indicates the waypoint is just up ahead.\r\n\nObservations: After checking
+    the gps waypoint, the device chirped and is indicating the batteries are about
+    to die. You say to yourself, \u201Cwell, I might need more battery power later,
+    I can find my way now, it\u2019s just up ahead.\u201D and turn off the gps. Whatever
+    was behind you, it didn\u2019t follow you directly over the rocks.\r\n\nOption
+    A: What am I doing? Turn that gps back on \u2013 you could miss the waypoint.\r\nOption
+    B: Keep walking the trail, your eyes are adjusting to the darkness.\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 3d77ab86bcb08384d891fe6a19a5494f, type: 2}
+  - {fileID: 11400000, guid: aaa32fff5a3d96a4cb4923ee79129344, type: 2}

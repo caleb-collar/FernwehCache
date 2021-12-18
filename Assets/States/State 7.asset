@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 347911acf56ac6840b20b4c944676f46, type: 3}
+  m_Name: State 7
+  m_EditorClassIdentifier: 
+  storyText: "Situation: Choosing the eastern path was a good choice. After another
+    350 meters it bends back to the north, and you think you\u2019re headed right
+    to the waypoint. There is a noticeable incline upwards now, you\u2019ll need
+    to vault over some rocks ahead of you to continue.\r\n\nObservations: How could
+    it be that your feet hurt so much? One kilometer shouldn\u2019t be so rough on
+    your body, could it? The sound of insects droning away is intense and you feel
+    like you are approaching the heart of the forest. At least there aren\u2019t
+    too many mosquitos. *SNAP* Another branch snaps behind you, the hairs on your
+    nape stand on end and you get goosebumps, you\u2019re being stalked.\r\n\nOption
+    A: Move carefully, taking your time in the darkness as to not injure yourself.\r\nOption
+    B: Move swiftly, vault the rocks as fast as you can \u2013 there\u2019s definitely
+    something behind you.\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 252c85eb5f24b904193fc069f63b02e6, type: 2}
+  - {fileID: 11400000, guid: 30f0c1d45ab587b40a584ebc6a200834, type: 2}

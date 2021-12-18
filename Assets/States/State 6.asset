@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 347911acf56ac6840b20b4c944676f46, type: 3}
+  m_Name: State 6
+  m_EditorClassIdentifier: 
+  storyText: "Situation: Choosing the western leading path may not have been a good
+    decision. After almost another 500 meters west, you begin to turn south. \u201CThis
+    isn\u2019t the right way\u2026\u201D, you mumble to yourself. The gps beeps.
+    It is indicating low battery power. Eventually you come to a clearing.\r\n\nObservations:
+    The clearing looks familiar\u2026 Have you been here before? Two sharp cracks
+    sound closely behind you. More wildlife?\r\n\nOption A: Enter the clearing ahead.\r\nOption
+    B: Turn around quick, what was that noise!?\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: e8c4da339a74d254d8ad5207aeb292bf, type: 2}
+  - {fileID: 11400000, guid: 1e25dc6a2dcefbf4fb71c75033501243, type: 2}

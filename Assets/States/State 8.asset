@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 347911acf56ac6840b20b4c944676f46, type: 3}
+  m_Name: State 8
+  m_EditorClassIdentifier: 
+  storyText: "Situation: Stepping into the clearing you immediately realize this
+    is the southern edge of the dark forest. In fact, you appear to be very near
+    where you started on the footpath. A little investigation shows the same footpath
+    you took into the forest is just 50 meters east from where you exited. The gps
+    is dead, you put it back into your pocket now \u2014 \u201CWhat\u2019s this?\u201D
+    Two \u2018AA\u2019 batteries are in your left pocket. You pop out the old ones,
+    they fall on the ground and are lost in the darkness, \u201COops, oh well\u201D
+    you say. You pop in the fresh batteries.\r\n\nObservations: The gps is off but
+    should have new batteries. You are tired, sore, & depressed. It is very dark,
+    but now your eyesight has adjusted to the moonlight.\r\n\nOption A: Sit down
+    for just a minute on a nice looking stump.\r\nOption B: Turn on the gps device
+    again.\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 4d137b0bb7569244db56f602b091a564, type: 2}
+  - {fileID: 11400000, guid: 3d77ab86bcb08384d891fe6a19a5494f, type: 2}

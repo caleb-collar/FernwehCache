@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 347911acf56ac6840b20b4c944676f46, type: 3}
+  m_Name: State 5
+  m_EditorClassIdentifier: 
+  storyText: "Situation: It\u2019s been a difficult walk through the forest. There
+    are many ruts, rocks, and swampy obstacles. According to the gps, you\u2019ve
+    made about 750 meters of progress from the southern edge of the forest. There
+    appears to be a fork in the path now. One heads east and the other heads west.\r\n\nObservations:
+    The path left (west) looks muddy and even swampier. The path right looks dry
+    and has a torn piece of red cloth a few meters down the path \u2014 looks like
+    someone caught their shirt on a broken branch. The summer air is hot and sticky,
+    you are tired, and your feet feel like they\u2019re blistering.\r\n\nOption A:
+    Go left (west).\r\nOption B: Go right (east).\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 2841f3864a283cc468c89bac580e8edc, type: 2}
+  - {fileID: 11400000, guid: aff09adbd8940d8478099fac29679eab, type: 2}

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 347911acf56ac6840b20b4c944676f46, type: 3}
+  m_Name: State 13
+  m_EditorClassIdentifier: 
+  storyText: 'Situation: By falling asleep in the fernweh grove, you suddenly awoke
+    in a familiar place. Everything feels sharp and real, it''s morning instead of
+    night.
+
+
+    Hypothesis: Perhaps you were visited whilst sleeping by an ancient
+    spirit of the forest. Or perhaps it was all just a crazy dream.
+
+
+    Observation:
+    You are sweating, tired, hungry, and you have blisters on your feet. In your
+    left pocket are two fresh ''AA'' batteries. Hmmm, those definitely weren''t there
+    before you drifted off.
+
+
+
+    The way you see it, you now have two choices.
+
+
+    |
+    END OF THE FERNWEH CACHE ADVENTURE |'
+  nextStates:
+  - {fileID: 11400000, guid: 4d137b0bb7569244db56f602b091a564, type: 2}
+  - {fileID: 11400000, guid: 4d137b0bb7569244db56f602b091a564, type: 2}
